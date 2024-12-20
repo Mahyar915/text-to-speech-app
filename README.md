@@ -6,7 +6,10 @@ User-friendly web interface for text input and audio playback.
 Supports multiple languages for text-to-speech conversion.
 Allows users to download the generated audio file.
 Built with Flask for backend processing, and HTML/CSS for frontend design.
+
 Technologies Used:
 Flask (Python framework)
+
 gTTS (Google Text-to-Speech engine)
+
 HTML/CSS and JavaScript for frontend
