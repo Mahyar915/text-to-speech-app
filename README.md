@@ -1,5 +1,5 @@
-# Text-to-Speech-App
-Text-to-Speech Web Application
+# Text-to-Speech-App 
+Text-to-Speech Web Application, AI-powered service(Google's TTS engine)
 This project is a Flask-based web application that converts user-provided text into speech using Google Text-to-Speech (gTTS). The application features an intuitive web interface, where users can input text, select language preferences, and download the generated audio files. It demonstrates the integration of Python libraries with web development to create an accessible, user-friendly solution.
 
 Key Features:
