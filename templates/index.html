@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Default language set to English -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech App</title>
+</head>
+<body>
+    <h1>Text to Speech Application</h1>
+    
+    <!-- Language Switcher -->
+    <form method="GET">
+        <label for="lang">Choose Language:</label>
+        <select id="lang" name="lang">
+            <option value="en">English</option>
+            <option value="fa">Persian</option>
+        </select>
+        <button type="submit">Switch Language</button>
+    </form>
+
+    <form action="/convert" method="POST">
+        <label for="text">Enter text to convert to speech:</label><br>
+        <textarea id="text" name="text" rows="4" cols="50" placeholder="Enter text here..."></textarea><br>
+        <button type="submit">Convert to Speech</button>
+    </form>
+</body>
+</html>
